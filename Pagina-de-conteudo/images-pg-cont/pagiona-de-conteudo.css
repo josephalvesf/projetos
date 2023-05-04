@@ -3,6 +3,11 @@ body
     font-family: 'Open Sans', Arial, Helvetica, sans-serif ;
     margin: 0;
     padding: 0;
+    color: #555;
+}
+h1, h2
+{
+    color: #111;
 }
   
 .top-bar
@@ -16,3 +21,63 @@ body
     border-bottom   : 5px solid #fd8a24;
 
 }
+/* usando . quando é class*/
+/* tds os seletores  */
+
+.container
+{
+    max-width: 888px; /* o maximo de autura*/
+    margin: auto; /*para deixar centralizado*/
+    padding: 30px; /* para deixar um espaço na parede ate o conteudo*/
+}
+
+.headline
+{
+    font-size: 56px; /*para mudar o tamanho da letra*/
+    line-height: 64px; /*distancia das linha, normalmente é usado 8px a mais que o da fonte.*/
+
+}
+.subtitle
+{
+    font-weight: 400; /*é o peso da fonte, como que mais fraca é usado 400 (h2 ja vem com uma letra forte, ai usa isso para deixar maus fraco)*/
+    font-size: 20px; /* para diminuir a fonte*/
+
+}
+
+.author
+{
+    font-weight: bold; /*fonte mais forte*/
+    font-size: 0.8em;
+
+}
+.social-icons
+{
+    margin-top: 10px;
+}
+.social-icon
+{
+    width: 20px;
+    padding: 10px 10px 10px 0;
+}
+a{
+    text-decoration: none; /*para tira o efeito de texto que fica na tag*/
+    color: #fd8a24 ;
+    font-weight: 700;
+}
+.content
+{
+    max-width: 648px;
+    margin: auto;
+}
+p
+{
+    font-size: 20px;
+    line-height: 32px;
+}
+.cta
+{
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+
