@@ -21,3 +21,20 @@ html,body
     height: 400px;
 
 }
+
+/*para deixar o texte centralisado*/
+.conteudo
+{
+    margin: auto;
+    max-width: 990px; /*para deixa o texte quebrado nas parte certas.*/
+    padding:0 40px; /*com paddi so nas laterais*/
+    margin-top: 100px;
+}
+h1,h2,h3,h4,h5,h6
+{
+    color: #ff6b28;
+}
+h1
+{
+    font-size: 48px;
+}
