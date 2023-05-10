@@ -1,0 +1,23 @@
+ /*Fonte: Lato (google fonts)
+Cor das fontes: #ff6b28
+Cor da top bar e da footer: #ff6b28  */
+html,body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.barra-de-topo
+{
+    background-color:#ff6b28 ;
+    padding: 15px;
+    text-align: center;
+}
+#cabecalho
+{
+    background: url('./images/hero_bolo.jpg');  
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+
+}
